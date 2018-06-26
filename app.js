@@ -55,7 +55,7 @@ bot.dialog('mainMenu',[
             var BMI = health.weight/(height*height)
             session.send("===您輸入的生理量測值===<br/>量測日期:"+healthdate+"<br/>身份證字號："+health.ID+"<br/>收縮壓："+health.systolic+" mmHg<br/>舒張壓："+health.diastolic+" mmHg<br/>體重、身高："+health.weight+"公斤、"+health.height+"公分<br/>BMI："+BMI+" 公斤/平方公尺<br/>腰圍："+health.waist+"公分");
 
-            // summitToMySQL(health.ID, healthdate, health.systolic, health.systolic, health.diastolic, health.weight, health.height, BMI, health.waist, session);
+            summitToMySQL(health.ID, healthdate, health.systolic, health.systolic, health.diastolic, health.weight, health.height, BMI, health.waist, session);
 
         }        
         session.replaceDialog('mainMenu');
