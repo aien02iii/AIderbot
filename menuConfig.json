@@ -1,0 +1,25 @@
+{
+    "main": {
+        "快速問診-腸病毒": "inquiryMenu",
+        "健康存摺-生理量測": "healthMenu",
+        "相關資訊": "information"
+    },
+    "pain": {
+            "title": "疼痛評估量表",
+            "subtitle":"1-3分輕度疼痛、4-6分中度疼痛、7-10分重度疼痛",
+            "picture":"http://40.media.tumblr.com/cd93b13a377c861a26178541869df717/tumblr_njib20lqJb1u5gq25o1_1280.jpg"
+    },
+    "blister": {
+        "title": "腸病毒輕症常見症狀",
+        "subtitle":"泡疹性咽喉炎以及手口足病",
+        "text":"左上：咽喉潰爛、右上：皮膚紅疹、右下：腳掌水泡、左下：手掌水泡",
+        "picture":"http://img.twkid.com/web_upload/2015/04/4242015-Enterovirus.jpg"
+    },
+    "timequiz":{
+        "低於一天":"1",
+        "一天至一週":"2",
+        "一週至一個月":"3",
+        "一個月以上":"4"
+    }
+
+}
