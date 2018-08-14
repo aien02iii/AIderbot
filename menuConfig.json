@@ -2,7 +2,11 @@
     "main": {
         "快速問診-腸病毒": "inquiryMenu",
         "健康存摺-生理量測": "healthMenu",
-        "相關資訊": "information"
+        "相關資訊": "information"  
+    },
+    "bankfunc": {
+        "新增": "createdata",
+        "查詢": "checkdata"
     },
     "pain": {
             "title": "疼痛評估量表",
@@ -20,6 +24,11 @@
         "一天至一週":"2",
         "一週至一個月":"3",
         "一個月以上":"4"
+    },
+    "info":{
+        "什麼是「腸病毒」":"whatEnterovirus",
+        "如何預防家中寶貝感染「腸病毒」":"babyProtection",
+        "查詢地區重症紀錄":"acuteLocal"
     }
 
 }
